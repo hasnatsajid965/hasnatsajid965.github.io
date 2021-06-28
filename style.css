@@ -50,10 +50,41 @@ tr:nth-child(even) {
     color: black;
 }
 
-#fb-link, #twit-link {
+.social-links {
     font-size: unset;
     background-color: unset;
     border: unset;
     font-size: unset;
-    padding: unset;
+    padding: 4px;
+}
+
+.nav-item {
+    background-color: unset;
+    border: unset;
+    font-size: unset;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+    font-size: 130%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+li a:hover {
+    background-color: #111111;
 }
